@@ -26,7 +26,7 @@ class QuizAttemptController extends Controller
             ],
             'mode' => [
                 'required',
-                Rule::in(['solo', 'ai']),
+                Rule::in(['solo', 'multi']),
             ],
         ]);
 
